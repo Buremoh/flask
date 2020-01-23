@@ -1,0 +1,36 @@
+body {
+  background: rgb(119, 3, 3);
+}
+
+.header {
+  background-color: #6d2e2e;
+  color: white;
+  height: 35px;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li + li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  color: #444;
+  text-decoration: none;
+}
+
+button {
+  background-color: seashell;
+  color: crimson;
+  border-radius: 5px;
+}
